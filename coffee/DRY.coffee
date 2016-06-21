@@ -11,8 +11,10 @@
 #
 # remember this? process.argv
 
-say = (x)-> console.log x
-low = (x)-> x.toLowerCase()
-bit = (x)-> x.substring(0, 3)
-args = process.argv.slice(2)
-say low bit arg for arg in args
+# say = (x)-> console.log x
+# low = (x)-> x.toLowerCase()
+# bit = (x)-> x.substring(0, 3)
+# args = process.argv.slice(2)
+# say low bit arg for arg in args
+
+console.log arg.toLowerCase().substring(0,3) for arg in process.argv.slice(2)
