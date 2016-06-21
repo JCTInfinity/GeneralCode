@@ -14,5 +14,5 @@
 say = (x)-> console.log x
 low = (x)-> x.toLowerCase()
 bit = (x)-> x.substring(0, 3)
-
-say low bit process.argv[i] for i in [2..4]
+args = process.argv.slice(2)
+say low bit arg for arg in args
