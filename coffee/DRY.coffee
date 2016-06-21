@@ -10,3 +10,9 @@
 # awe
 #
 # remember this? process.argv
+
+say = (x)-> console.log x
+low = (x)-> x.toLowerCase()
+bit = (x)-> x.substring(0, 3)
+
+say low bit process.argv[i] for i in [2..4]
