@@ -5,7 +5,7 @@
   ref = process.argv.slice(2);
   for (i = 0, len = ref.length; i < len; i++) {
     arg = ref[i];
-    console.log(arg.toLowerCase().substring(0, 3));
+    console.log(arg.toLowerCase().slice(0, 3));
   }
 
 }).call(this);
